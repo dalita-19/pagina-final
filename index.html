@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+
+
+<html lang="es">
+
+
+<head>
+
+
+<meta charset="UTF-8">
+
+
+<meta name="viewport" content="width=device-width, initial-
+
+
+scale=1.0">
+
+
+<title>MENU RESPONSIVE</title>
+
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+
+<div class="logo">MENU</div>
+
+
+<input type="checkbox" id="toggle">
+
+
+<label for="toggle"> <img class="MENU" src="images/menu.svg"
+
+
+alt="MENU"> </label>
+
+
+<nav class="navigation">
+
+
+<ul>
+
+
+  <li><a href="#">INICIO</a></li>
+
+
+  <li><a href="#">SERVICIOS</a></li>
+
+
+  <li><a href="#">CONTACTO</a>
+
+
+    <ul>
+
+
+      <li><a href="#">Bosque</a></li>
+
+
+      <li><a href="#">Cabañas</a></li>
+
+
+      <li><a href="#">Arboles</a></li>
+
+
+      <li><a href="#">Habitaciones</a>
+
+
+            <ul>
+
+
+              <li><a href="#">Tipo A</a></li>
+              <li><a href="#">Tipo B</a></li>
+              <li><a href="#">Tipo C</a></li>
+              <li><a href="#">Tipo D</a></li>
+
+
+            </ul>
+
+
+         </li>
+
+
+     </ul>
+
+
+      </li>
+
+
+      <li><a href="#">BLOG</a>
+
+
+     <ul>
+
+
+      <li><a href="#">Noticias</a></li>
+
+
+      <li><a href="#">Clima</a></li>
+
+
+      <li><a href="#">Fauna</a></li>
+
+
+      <li><a href="#">Restaurantes</a></li>
+
+
+    </ul>
+
+
+  </li>
+
+
+  <li><a href="#">CONTACTO</a></li>
+
+
+</ul>
+
+
+</nav>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+<section>
+
+
+
+
+
+
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide"><img src="pollo.png" alt="Imagen 1"></div>
+            <div class="slide"><img src="snoopy.webp" alt="Imagen 2"></div>
+            <div class="slide"><img src="papa.jfif" alt="Imagen 3"></div>
+            </div>
+        <button class="prev-btn">&#10094;</button>
+        <button class="next-btn">&#10095;</button>
+        <div class="dots-container">
+            </div>
+    </div>
+</section>
+
+
+
+
+<hr>
+<section>
+
+
+
+
+
+
+  <h1>Mi Galería de Imágenes</h1>
+
+
+  <section class="galeria">
+    <img src="ola.jpg" alt="Imagen 1" class="miniatura" />
+    <img src="ole.png" alt="Imagen 2" class="miniatura" />
+    <img src="oli.jpg" alt="Imagen 3" class="miniatura" />
+    <img src="palo.jpg" alt="Imagen 4" class="miniatura" />
+    <img src="pou.jpg" alt="Imagen 5" class="miniatura" />
+    <img src="waa.jpg" alt="Imagen 6" class="miniatura" />
+  </section>
+
+
+  <!-- Contenedor para imagen ampliada -->
+  <div id="visor" class="visor oculto">
+    <span id="cerrar">&times;</span>
+    <img id="imagenGrande" src="" alt="Imagen ampliada" />
+  </div>
+
+
+  <script src="script.js"></script>
+</section>
+
+
+
+<hr>
+
+
+<section class="noticias-section">
+    <h2>Últimas Noticias</h2>
+    <article class="noticia">
+        <img src="nuevo papa.jpg" alt="Nuevo Papa">
+            <h3>Titular de la Noticia 1</h3>
+            <p class="resumen">Breve resumen de la Noticia 1. Aquí se destacan los puntos más importantes de la notticia que se presenta para informar de mejor manera.</p>
+            <a href="https://andina.pe/agencia/noticia-estas-son-las-normas-legales-mas-importantes-del-viernes-31-enero-del-2025-1016975.aspx">Leer más</a>
+    </article>
+    <article class="noticia">
+        <img src="imagen2.jpg" alt="Título de la Noticia 2">
+            <h3>Titular de la Noticia 2</h3>
+            <p class="resumen">Breve resumen de la Noticia 2. Aquí se destacan los puntos más importantes de la noticia que se presenta para informar de mejor manera.</p>
+            <a href="https://revistaganamas.com.pe/laboratorio-de-innovacion-del-gobierno-debio-estar-en-el-concytec/">Leer más</a>
+    </article>
+    <article class="noticia">
+        <img src="imagen3.jpg" alt="Título de la Noticia 3">
+            <h3>Titular de la Noticia 3</h3>
+            <p class="resumen">Breve resumen de la Noticia 3. Aquí se destacan los puntos más importantes de la noticia que se presenta para informar de mejor manera.</p>
+            <a href="https://www.facebook.com/photo.php?fbid=1038378158334179&id=100064860121277&set=a.611761357662530">Leer más</a>
+    </article>
+</section>
+
+
+
+
+
+
+<hr>
+
+
+<section>
+<center><main>
+
+
+<h1>!Contáctanos!</h1>
+
+
+<p>Por favor, completa el siguiente formulario para ponerte en contacto con nosotros.</p>
+
+
+<form action="#" method="POST">
+
+
+<div>
+
+
+<label
+
+
+for="nombre">Nombre:</label>
+
+
+<input type="text" id="nombre"
+
+
+name="nombre" placeholder="Tu nombre
+
+
+completo" required autocomplete="name">
+
+
+</div>
+
+
+<div>
+
+
+<label for="email">Correo
+
+
+Electrónico:</label>
+
+
+<input type="email" id="email"
+
+
+name="email" placeholder="Tu correo electrónico" required
+
+
+autocomplete="email">
+
+
+</div>
+
+
+<div>
+    <label
+
+
+    for="mensaje">Mensaje:</label>
+   
+    <textarea id="mensaje"
+   
+    name="mensaje" rows="5"
+   
+    placeholder="Escribe tu mensaje aqui"
+   
+    required></textarea>
+   
+    </div>
+   
+    <button type="submit">Enviar Mensaje</button>
+   
+    </form>
+    <section>
+
+
+        <div class="social-links">
+       
+        <a href="https://wa.me/988984385" class="social-icon whatsapp" target="_blank">
+       
+        <img src="whatsap.png" alt="WhatsApp">
+       
+        </a>
+       
+        <a href="https://www.facebook.com/jhonanccari" class="social-icon facebook" target="blank">
+       
+        <img src="facebook.png" alt="Facebook">
+       
+        </a>
+       
+        <a href="https://www.instagram.com/TUNOMBREDEUSUARIO" class="social-icon Instagram" target="_blank">
+       
+        <img src="instagram.jpg" alt="Instagram">
+       
+        </A>
+       
+        <a href="https://twitter.com/TUNOMBREDEUSUARIO" class="social-icon twitter" target="blank">
+       
+        <img src="twiter.png" alt="Twitter">
+       
+        </a>
+       
+        </section>
+    </main>
+</center>
+</section>
+
+
+</body>
+</html>
